@@ -11,8 +11,6 @@ BuildRequires:	SDL_image-devel >= 1.2.0
 BuildRequires:	gengameng-devel >= 4.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Clone of the Intellivision game Night Stalker. The player is in a
