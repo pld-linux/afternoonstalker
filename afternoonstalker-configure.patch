@@ -1,0 +1,26 @@
+diff -urN afternoonstalker-1.0.1,orig/configure afternoonstalker-1.0.1/configure
+--- afternoonstalker-1.0.1,orig/configure	2002-03-31 22:28:38.000000000 +0000
++++ afternoonstalker-1.0.1/configure	2004-09-21 17:08:39.305191696 +0000
+@@ -2000,22 +2000,6 @@
+ 
+ fi;
+ 
+-	GENGAMENG_VERSION=`$gengameng_config --version`
+-	actual=`echo $GENGAMENG_VERSION | awk -F. '{ printf "%d", ($1 * 1000 + $2) * 1000 + $3;}'`
+-	minver=`echo "$MIN_GENGAMENG_VERSION" | awk -F. '{ printf "%d", ($1 * 1000 + $2) * 1000 + $3;}'`
+-	if test "$actual" -ge "$minver"; then
+-		echo "$as_me:2007: result: found $GENGAMENG_VERSION" >&5
+-echo "${ECHO_T}found $GENGAMENG_VERSION" >&6
+-	else
+-		{ { echo "$as_me:2010: error: gengameng >= $MIN_GENGAMENG_VERSION is required; found $GENGAMENG_VERSION" >&5
+-echo "$as_me: error: gengameng >= $MIN_GENGAMENG_VERSION is required; found $GENGAMENG_VERSION" >&2;}
+-   { (exit 1); exit 1; }; }
+-	fi
+-
+-	unset minver
+-	unset actual
+-	unset GENGAMENG_VERSION
+-
+ 	GENGAMENG_PREFIX=`$gengameng_config --prefix`
+ 	GENGAMENG_CFLAGS=`$gengameng_config --cflags`
+ 	GENGAMENG_LIBS=`$gengameng_config --libs`
