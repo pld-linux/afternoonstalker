@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www3.sympatico.ca/sarrazip/dev/%{name}-%{version}.tar.gz
 # Source0-md5:	5357e88c14f76bad94b84f099d31a606
+patch0:		%{name}-configure.patch
 URL:		http://sarrazip.com/dev/afternoonstalker.html
 BuildRequires:	SDL_image-devel >= 1.2.0
 BuildRequires:	gengameng-devel >= 4.1
@@ -33,6 +34,7 @@ zabezpieczenie, ale drzwi s± otwarte dla pocisków robotów.
 
 %prep
 %setup -q
+%patch0	-p1
 
 %build
 %configure
@@ -43,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	gnomedesktopentrydir=%{_applnkdir}/Games/Arcade
+	gnomedesktopentrydir=%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -54,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}
 %{_datadir}/sounds/%{name}
 %{_pixmapsdir}/%{name}.png
-%{_applnkdir}/Games/Arcade/%{name}.desktop
+%{_desktopdir}/%{name}.desktop
 %{_mandir}/man6/%{name}.6*
