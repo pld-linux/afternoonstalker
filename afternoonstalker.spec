@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www3.sympatico.ca/sarrazip/dev/%{name}-%{version}.tar.gz
+# Source0-md5:	5357e88c14f76bad94b84f099d31a606
 URL:		http://sarrazip.com/dev/afternoonstalker.html
 BuildRequires:	SDL_image-devel >= 1.2.0
 BuildRequires:	gengameng-devel >= 4.1
