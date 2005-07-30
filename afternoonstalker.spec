@@ -13,7 +13,6 @@ BuildRequires:	SDL_image-devel >= 1.2.0
 BuildRequires:	gengameng-devel >= 4.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 Clone of the Intellivision game Night Stalker. The player is in a
 two-dimensional maze in which you are attacked by robots that shoot at
