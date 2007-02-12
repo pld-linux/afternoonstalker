@@ -1,5 +1,5 @@
 Summary:	A Night Stalker(TM) clone
-Summary(pl):	Klon gry Night Stalker(TM)
+Summary(pl.UTF-8):   Klon gry Night Stalker(TM)
 Name:		afternoonstalker
 Version:	1.0.1
 Release:	2
@@ -22,14 +22,14 @@ and the bats, which can paralyze you long enough for a robot to come
 and shoot you. The bunker in the center offers some protection, but
 the door is open to the robots' bullets.
 
-%description -l pl
+%description -l pl.UTF-8
 Jest to klon gry Intellivision o nazwie Night Stalker. Gracz jest w
-dwuwymiarowym labiryncie, w którym jest atakowany przez strzelaj±ce w
-niego roboty, które musi wystrzelaæ. Musi odnale¼æ broñ ukryt± w
-labiryncie, aby mieæ pociski do strzelania. Trzeba unikaæ paj±ków i
-nietoperzy, które parali¿uj± gracza na wystarczaj±co d³ugo, by jaki¶
-robot zd±¿y³ go zastrzeliæ. Bunkier w centrum daje pewne
-zabezpieczenie, ale drzwi s± otwarte dla pocisków robotów.
+dwuwymiarowym labiryncie, w ktÃ³rym jest atakowany przez strzelajÄ…ce w
+niego roboty, ktÃ³re musi wystrzelaÄ‡. Musi odnaleÅºÄ‡ broÅ„ ukrytÄ… w
+labiryncie, aby mieÄ‡ pociski do strzelania. Trzeba unikaÄ‡ pajÄ…kÃ³w i
+nietoperzy, ktÃ³re paraliÅ¼ujÄ… gracza na wystarczajÄ…co dÅ‚ugo, by jakiÅ›
+robot zdÄ…Å¼yÅ‚ go zastrzeliÄ‡. Bunkier w centrum daje pewne
+zabezpieczenie, ale drzwi sÄ… otwarte dla pociskÃ³w robotÃ³w.
 
 %prep
 %setup -q
