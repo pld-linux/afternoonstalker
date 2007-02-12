@@ -1,5 +1,5 @@
 Summary:	A Night Stalker(TM) clone
-Summary(pl.UTF-8):   Klon gry Night Stalker(TM)
+Summary(pl.UTF-8):	Klon gry Night Stalker(TM)
 Name:		afternoonstalker
 Version:	1.0.1
 Release:	2
